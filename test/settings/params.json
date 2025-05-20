@@ -1,0 +1,60 @@
+{
+    "Default": { 
+        "STATE_SIZE": 5,
+        "STATE_TIMESPAN": 1000,
+        "GAP_PERIOD": 600,
+        "ANGLE_THRESHOLD": 5,
+        "MAX_RATE_OF_TURN": 3.0,
+        "MAX_SPEED_THRESHOLD": 30.0,
+        "MAX_RATE_OF_CHANGE": 100.0,
+        "SPEED_RATIO": 0.25,
+        "DISTANCE_THRESHOLD": 50.0,
+        "LOW_SPEED_THRESHOLD": 2.0,	 
+        "NO_SPEED_THRESHOLD": 0.5
+        },
+    "Fishing": { 
+        "ANGLE_THRESHOLD": 3,
+        "MAX_RATE_OF_TURN": 5.0
+        },
+    "Sailing": { 
+        "ANGLE_THRESHOLD": 5,
+        "MAX_RATE_OF_TURN": 10.0,
+        "MAX_SPEED_THRESHOLD": 35.0,
+        "MAX_RATE_OF_CHANGE": 1000.0
+        },
+    "Pleasure Craft": { 
+        "ANGLE_THRESHOLD": 5,
+        "MAX_RATE_OF_TURN": 10.0,
+        "MAX_SPEED_THRESHOLD": 35.0,
+        "MAX_RATE_OF_CHANGE": 1000.0
+        },
+    "High speed craft": {
+        "ANGLE_THRESHOLD": 10,
+        "MAX_RATE_OF_TURN": 10.0,
+        "MAX_SPEED_THRESHOLD": 40.0,
+        "MAX_RATE_OF_CHANGE": 1500.0,
+        "DISTANCE_THRESHOLD": 150.0
+        },
+    "Tanker": {
+        "ANGLE_THRESHOLD": 5,
+        "MAX_RATE_OF_TURN": 3.0,
+        "MAX_RATE_OF_CHANGE": 500.0
+        },
+    "Passenger": {
+        "ANGLE_THRESHOLD": 10,
+        "MAX_RATE_OF_TURN": 3.0,
+        "MAX_RATE_OF_CHANGE": 500.0
+        },
+    "Cargo": {
+        "ANGLE_THRESHOLD": 5,
+        "MAX_RATE_OF_TURN": 3.0,
+        "DISTANCE_THRESHOLD": 150.0,
+        "LOW_SPEED_THRESHOLD": 1.0,
+        "NO_SPEED_THRESHOLD":0.4
+        },
+    "Tug": {
+        "ANGLE_THRESHOLD": 5,
+        "MAX_RATE_OF_TURN": 3.0,
+        "MAX_RATE_OF_CHANGE": 300.0
+        }
+}

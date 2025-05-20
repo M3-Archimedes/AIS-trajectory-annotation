@@ -24,10 +24,10 @@ Sink::Sink(char * outFileName, bool includeId = true)
     // Create header for the output file
     vector<string> fields;  //Output fields
     if (this->includeId) {
-        fields = { "id", "x", "y", "t", "speed", "heading", "annotation" };  //MULTIPLE objects in single output file
+        fields = { "id", "lon", "lat", "t", "speed", "heading", "annotation" };  //MULTIPLE objects in single output file
     } 
     else {
-        fields = { "x", "y", "t", "speed", "heading", "annotation" };  //SINGLE object
+        fields = { "lon", "lat", "t", "speed", "heading", "annotation" };  //SINGLE object
     }
     this->setHeader(fields);
 }

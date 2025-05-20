@@ -1,0 +1,6 @@
+MMSI;TYPE_CODE;TYPE;DESCRIPTION
+1;80;Tanker;Tanker, all ships of this type
+2;40;High speed craft;High speed craft (HSC), all ships of this type
+3;60;Passenger;Passenger, all ships of this type
+4;37;Pleasure Craft;Pleasure Craft
+5;37;Pleasure Craft;Pleasure Craft
