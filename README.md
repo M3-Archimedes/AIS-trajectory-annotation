@@ -88,7 +88,7 @@ where each argument has the following significance:
 
 - ```[output-file]```: Path to the output (ASCII space delimited file) collecting points with the detected annotations.
 
-- _[annotated-only]_: Boolean controlling which points will be emitted. If ```true```, only points with detected annotations will be stored into the output file; otherwise, normal (i.e., not annotated) and noisy points (annotated as _NOISE_) will be also included in the output.
+- ```[annotated-only]```: Boolean controlling which points will be emitted. If ```true```, only points with detected annotations will be stored into the output file; otherwise, normal (i.e., not annotated) and noisy points (annotated as _NOISE_) will be also included in the output.
 
 ### Examples:
 
@@ -97,7 +97,7 @@ where each argument has the following significance:
 ./annotate ./input/vessel_1_no_id.csv -1 3 ./settings/params.json ./settings/vessel_info.csv ./output/vessel_1_no_id_annotated.csv false
 ```
 
-- The input data also concerns a _SINGLE_ vessel but its identifier is included in the input and its vessel type specifications in ```[settings/params.json]``` will be taken into account:
+- The input data also concerns a _SINGLE_ vessel but its identifier is included in the input and its vessel type specifications in ```(/test/settings/params.json)``` will be taken into account:
 ```
 ./annotate ./input/vessel_1_id.csv 1 4 ./settings/params.json ./settings/vessel_info.csv ./output/vessel_1_id_annotated.csv false
 ```
@@ -172,7 +172,7 @@ _CAUTION!_ If input concerns a SINGLE vessel, its ID may be ommitted from output
 
 _NOTE:_ The same point location may have been assigned none, one or even _multiple_ annotations (e.g., _SLOW_MOTION_END; STOP_START_). In the output file, multiple annotations are separated by ```;```.
 
-Please take a look at [this folder](test/ouput) for indicative annotated results computed using these [settings](test/settings) over various sample input data available [here](test/input).
+Please take a look at [this folder](test/output) for indicative annotated results computed using these [settings](test/settings) over various sample input data available [here](test/input).
 
 
 ## Annotations
