@@ -201,12 +201,18 @@ These are the annotations that can be possibly assigned to a vessel's location:
 
 Note that the same point location may have _multiple_ annotations (e.g., SLOW_MOTION_END; STOP_START). In the output file, such annotations are separated by ';'.
 
+## Publication 
+
+Giannis Spiliopoulos, Alexandros Troupiotis-Kapeliaris, Kostas Patroumpas, Nikolaos Liapis, Dimitrios Skoutas, Dimitris Zissis, Nikos Bikakis
+[**Data-Driven Trajectory Imputation for Vessel Mobility Analysis**](https://arxiv.org/pdf/2602.11890), 29th International Conference on Extending Database Technology (EDBT 2026)
+
+<br>
 
 ## Acknowledgements
 
 This processing framework has been developed over a long period under various Greek and EU-funded projects:
 
-1) An initial version of the online tracking module was partially developed during a Short Term Scientific Mission (25/3/2013-19/4/2013) at the Institut de Recherche de l'École navale (Brest, France) with the support of _EU COST Action IC0903 MOVE on Knowledge Discovery from Moving Objects_. A short preliminary report describing the basic framework was published in [COST MOVE Workshop on Moving Objects at Sea](https://sites.google.com/site/movingobjectsatsea/accepted-papers). Helpful discussions with Dr. Cyril Ray and Prof. Christophe Claramunt during this STSM are kindly acknowledged.
+1) An initial version of the online tracking module was partially developed during a Short Term Scientific Mission (25/3/2013-19/4/2013) at the Institut de Recherche de l'Ã‰cole navale (Brest, France) with the support of _EU COST Action IC0903 MOVE on Knowledge Discovery from Moving Objects_. A short preliminary report describing the basic framework was published in [COST MOVE Workshop on Moving Objects at Sea](https://sites.google.com/site/movingobjectsatsea/accepted-papers). Helpful discussions with Dr. Cyril Ray and Prof. Christophe Claramunt during this STSM are kindly acknowledged.
 
 2) A more enhanced version of this work was carried out in the framework of the project **AMINESS** -- _Analysis of Marine INformation for Environmentally Safe Shipping_ co-financed by the European Fund for Regional Development and from Greek National funds through the operational programs "Competitiveness and Enterpreneurship" and "Regions in Transition" of the National Strategic Reference Framework - Action: "COOPERATION 2011 -- Partnerships of Production and Research Institutions in Focused Research and Technology Sectors". This version has been completed when collaborating (2014-2015) with the [Information Management Lab](https://infolab.cs.unipi.gr/) at the University of Pireaus. More information about this enhanced methodology can be found at two published papers:
  
