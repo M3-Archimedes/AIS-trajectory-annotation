@@ -201,6 +201,13 @@ These are the annotations that can be possibly assigned to a vessel's location:
 
 Note that the same point location may have _multiple_ annotations (e.g., SLOW_MOTION_END; STOP_START). In the output file, such annotations are separated by ';'.
 
+
+<br>
+
+## Project 
+[**M3: Multimodal Foundation Models for the Maritime Domain Project**](https://github.com/M3-Archimedes)
+
+
 ## Publication 
 
 Giannis Spiliopoulos, Alexandros Troupiotis-Kapeliaris, Kostas Patroumpas, Nikolaos Liapis, Dimitrios Skoutas, Dimitris Zissis, Nikos Bikakis
