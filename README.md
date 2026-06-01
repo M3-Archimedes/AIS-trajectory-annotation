@@ -1,4 +1,4 @@
-# AIS vessel trajectory annotation
+# AIS Vessel Trajectory Annotation
 
 This technique simulates streaming positions of vessels relayed through the Automatic Identification System (AIS) and identifies critical points along each trajetory. It applies mobility filters with user-specified parametrization in order to discard noisy positions and suitably annotate selected point locations with a particular characterization (stop, turn, communication gap, slow motion, etc.) in order to capture important changes across the route. The resulting annotated locations can be used to reconstruct a compressed, yet reliable approximation of the original trajectory by keeping only a small fraction of the raw positions.
 
