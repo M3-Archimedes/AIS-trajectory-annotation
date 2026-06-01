@@ -203,6 +203,18 @@ Note that the same point location may have _multiple_ annotations (e.g., SLOW_MO
 
 
 <br>
+<br>
+
+
+## Related GitHub Repositories 
+
+* [**Context-Enriched Natural Language Descriptions of Vessel Trajectories**] (https://github.com/M3-Archimedes/AIS-semantic-trajectories)
+
+* [**HABIT: Aggregation-based Imputation Framework for Vessel Trajectories**](https://github.com/M3-Archimedes/HABIT)
+
+* [**IMGIN: Image-based Imputation of Trajectories**](https://github.com/M3-Archimedes/IMaGe-based-ImputatioN-of-Trajectories)
+
+ 
 
 ## Project 
 [**M3: Multimodal Foundation Models for the Maritime Domain Project**](https://github.com/M3-Archimedes)
